@@ -70,9 +70,21 @@
 
 ### web doc
 
+builded with drf-yasg
+
 http://127.0.0.1:8000/doc/
+
+## tests 
+TDD -> Test-Driven developer..
+With the [unittests](https://docs.python.org/3/library/unittest.html) framework, writing tests becomes very easy.
+
+Yu can test your API using the following command:
+
+`$ python manage.py test`
 ### How to run
 
+confirm if yo run on setup this project
+`./manage.py makemigrations and ./manage.py migrate commands for newly created or changed model.`
 #### Development mode
 
 `docker-compose -f build/docker-compose-dev.yml up`
