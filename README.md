@@ -5,7 +5,8 @@
 `build` — build scripts, docker/docker-compose
 
 ## Data Structure
-'''
+
+```
 ├── api
 │   ├── django_blog
 │   │   ├── apps
@@ -60,7 +61,7 @@
 │   └── Dockerfile.api
 ├── circle.yml -> build/ci/circle.yml
 └── README.md
-'''
+```
 
 ### How to run
 
